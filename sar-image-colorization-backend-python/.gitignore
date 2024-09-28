@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# C extensions
+*.c
+*.cpp
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+bin/
+lib/
+lib64/
+include/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Pip dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Python-specific package manager cache
+pipenv/
+poetry.lock
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Pytest cache
+.cache/
+
+# MyPy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Profiling data
+.prof
+
+# Mac OS specific
+.DS_Store
+
+# IDE-specific
+.idea/
+.vscode/
+
+# TensorFlow, PyTorch, and other model files
+*.h5
+*.ckpt
+*.pb
+*.onnx
+*.pkl
+
+# Miscellaneous
+*.bak
+*.tmp

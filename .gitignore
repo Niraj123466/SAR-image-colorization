@@ -1,0 +1,72 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build
+dist/
+build/
+.cache/
+.vscode/
+.next/
+
+# Static assets
+public/static/
+public/images/
+
+# Optional npm cache directory
+.npm/
+
+# Package-lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Mac OS specific
+.DS_Store
+
+# IDE specific
+.idea/
+*.swp
+*.swo
+
+# Python-related for model integration
+__pycache__/
+*.py[cod]
+*.so
+*.pkl
+*.h5
+*.ckpt
+
+# TensorFlow, PyTorch model files
+models/
+*.h5
+*.ckpt
+*.pb
+*.onnx
+
+# Miscellaneous
+*.log
+*.bak
+*.tmp
+*.out
+
+# Coverage
+coverage/
+*.lcov
+*.clover
